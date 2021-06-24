@@ -2,7 +2,6 @@ package br.com.cleanproject;
 
 import br.com.cleanproject.common.CommunUser;
 import br.com.cleanproject.entities.User;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
