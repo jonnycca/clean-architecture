@@ -29,7 +29,7 @@ public class CleanprojectApplication {
 	void genericApplicationContext(BeanDefinitionRegistry beanRegistry) {
 		ClassPathBeanDefinitionScanner beanDefinitionScanner = new ClassPathBeanDefinitionScanner(beanRegistry);
 		beanDefinitionScanner.addIncludeFilter(removeModelAndEntitiesFilter());
-		beanDefinitionScanner.scan("com.baeldung.pattern.cleanarchitecture");
+		beanDefinitionScanner.scan("br.com.cleanproject");
 	}
 
 	static TypeFilter removeModelAndEntitiesFilter() {
